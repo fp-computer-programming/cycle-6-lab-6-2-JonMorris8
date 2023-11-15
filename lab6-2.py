@@ -11,3 +11,9 @@ Add a statement that removes the value at index 1 from my_row
 Add a statement that prints my_row. What do you notice happens and why?
 
 """
+my_row = ["Jon", "Future"]
+my_row += ["Jon"]
+my_row2 = my_row
+print("my_row2:", my_row2)
+del my_row[1]
+print("my_row:", my_row)
